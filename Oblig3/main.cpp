@@ -96,7 +96,6 @@ int main()
     multiset.reserve(170);
     std::cout << "Load = " << multiset.load_factor() << "\n";
     for(unsigned int i{0}; i < playerList.size(); i++) {
-
         if(i%2 == 0) {
             playerProfile.key = playerList.at(i);
         } else {
